@@ -19,13 +19,13 @@ Over time, you can add your own templates using your own private repositories al
 
 ## Get Started
 
-To start, all you need is a single Atlantis SAM Config Repository, as everything flows from there.
+To start, you only need a single Atlantis SAM Config Repository, as everything flows from there.
 
-**If you are a developer** and your organization is already using Atlantis, the place to start is to clone your organization's private Atlantis SAM Configuration repository and follow the:\
-**Instructions for Developers:** Setting Up Your Organization's Atlantis SAM Config Repo on Your Local Machine. 
+**If you are a developer** and your organization is already using Atlantis, the place to start is to clone your organization's private Atlantis SAM Configuration repository and follow the:
+- **Instructions for Developers:** Setting Up Your Organization's Atlantis SAM Config Repo on Your Local Machine. 
 
-**If you are an individual, cloud engineer, or instructor** setting up or evaluating Atlantis for personal, organizational, team, or classroom use, then follow the:\
-**Instructions for Account Owners**: Setting Up Your Organization's Atlantis SAM Config Repository.
+**If you are an individual, cloud engineer, or instructor** setting up or evaluating Atlantis for personal, organizational, team, or classroom use, then follow the:
+- **Instructions for Account Owners**: Setting Up Your Organization's Atlantis SAM Config Repository.
 
 ## Tutorials
 
