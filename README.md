@@ -19,7 +19,7 @@ Over time, you can add your own templates using your own private repositories al
 
 ## Get Started
 
-To start, you only need a single Atlantis SAM Config Repository, as everything flows from there.
+To start, you only need a single [Atlantis SAM Config Repository](https://github.com/63Klabs/atlantis-cfn-configuration-repo-for-serverless-deployments), as everything flows from there.
 
 **If you are a developer** and your organization is already using Atlantis, the place to start is to clone your organization's private Atlantis SAM Configuration repository and follow the:
 - **Instructions for Developers:** Setting Up Your Organization's Atlantis SAM Config Repo on Your Local Machine. 
