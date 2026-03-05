@@ -60,7 +60,7 @@ GitOps and Best Practices from the start!
 - [00 Basic API Gateway with Lambda Function Written in Node.js](https://github.com/63Klabs/atlantis-starter-00-basic-apigw-lambda-nodejs)
 - [01 Basic API Gateway with Lambda Function Written in Python](https://github.com/63Klabs/atlantis-starter-01-basic-apigw-lambda-py)
 - [02 API Gateway with Lambda utilizing 63klabs/cache-data Written in Node.js](https://github.com/63Klabs/atlantis-starter-02-apigw-lambda-cache-data-nodejs)
-- [Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/atlantis-starter-03-serverless-cloudfront-cache-invalidation)
+- [03 Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/atlantis-starter-03-serverless-cloudfront-cache-invalidation)
 
 ### 3rd Party Application Starters
 
