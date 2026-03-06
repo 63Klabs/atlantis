@@ -16,7 +16,7 @@ The Atlantis Platform consists of:
 
 ```mermaid
 flowchart LR
-    A[SAM Config] --- B[Templates] --- C[Starter Code]
+    A[Templates] --- B[SAM Config Repo] --- C[Starter Code]
 ```
 
 ## Use Public Repository or Self-Host
