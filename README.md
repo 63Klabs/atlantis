@@ -9,6 +9,16 @@ Ready-to-deploy-and-run:
 - **Enhanced SAM Configuration management** - Advanced scripts make deploying infrastructure such as pipelines and storage easy, maintainable, and scalable without shadow databases or data stores. Uses a config repository and AWS API to check the current state of your infrastructure in real-time.
 - **Tutorials** - Documentation and step-by-step tutorials assist in learning not only how to use Atlantis, but also how to develop and deploy production-level serverless applications using CI/CD, IaC, and the Well-Architected Framework. Even if your organization doesn't use Atlantis as its production platform, it is an easy way to teach, learn, and experiment.
 
+The Atlantis Platform consists of:
+- [SAM Config Repository within the organization](https://github.com/63Klabs/atlantis-cfn-configuration-repo-for-serverless-deployments)
+- [Infrastructure Templates](https://github.com/63Klabs/atlantis-cfn-template-repo-for-serverless-deployments)
+- Application Starter Code
+
+```mermaid
+flowchart LR
+    A[SAM Config] --- B[Templates] --- C[Starter Code]
+```
+
 ## Use Public Repository or Self-Host
 
 Getting started is simple; it starts with a SAM Configuration repository. Connections to public CloudFormation libraries and application starter code are all available from the command line.
