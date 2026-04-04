@@ -8,6 +8,7 @@ Ready-to-deploy-and-run:
 - **Continuous Integration/Continuous Deployment/Delivery (CI/CD)** - AWS CodePipeline or GitHub Actions automation scripts and tests to ensure GitOps and reliable deployments.
 - **Enhanced SAM Configuration management** - Advanced scripts make deploying infrastructure such as pipelines and storage easy, maintainable, and scalable without shadow databases or data stores. Uses a config repository and AWS API to check the current state of your infrastructure in real-time.
 - **Tutorials** - Documentation and step-by-step tutorials assist in learning not only how to use Atlantis, but also how to develop and deploy production-level serverless applications using CI/CD, IaC, and the Well-Architected Framework. Even if your organization doesn't use Atlantis as its production platform, it is an easy way to teach, learn, and experiment.
+- **MCP Server** - AI-assisted development tools to discover, validate, and utilize CloudFormation templates, starter code, and documentation.
 
 The Atlantis Platform consists of:
 - [SAM Config Repository within the organization](https://github.com/63Klabs/atlantis-cfn-configuration-repo-for-serverless-deployments)
@@ -116,3 +117,7 @@ A user may possess permission for any or all of the actions above. You may let a
 Scripts automatically support the `--profile` option for AWS and SAM CLI commands, as well as the `aws sso login` process for expired credentials.
 
 Templates and starter code already include best practices in security and permissions, with ready-to-use, scoped-down Lambda Execution roles, SSM Parameter and Secrets Manager integration, and resource naming and tagging policies to use with any number of permission sets.
+
+## Atlantis MCP Server
+
+A publicly accessible [Atlantis MCP server](https://mcp.atlantis.63klabs.net) is available to assist in using the Atlantis Platform. Use it to discover documentation, starter code, and templates.
