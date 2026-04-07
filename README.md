@@ -11,14 +11,10 @@ Ready-to-deploy-and-run:
 - **MCP Server** - AI-assisted development tools to discover, validate, and utilize CloudFormation templates, starter code, and documentation.
 
 The Atlantis Platform consists of:
-- [SAM Config Repository within the organization](https://github.com/63Klabs/atlantis-cfn-configuration-repo-for-serverless-deployments)
-- [Infrastructure Templates](https://github.com/63Klabs/atlantis-cfn-template-repo-for-serverless-deployments)
+- [SAM Configuration Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts)
+- [Infrastructure Templates](https://github.com/63Klabs/atlantis-sam-templates)
+- [Atlantis MCP Server](https://github.com/63Klabs/atlantis-mcp)
 - Application Starter Code
-
-```mermaid
-flowchart LR
-    A[Templates] --- B[SAM Config Repo] --- C[Starter Code]
-```
 
 ## Use Public Repository or Self-Host
 
@@ -30,7 +26,7 @@ Over time, you can add your own templates using your own private repositories al
 
 ## Get Started
 
-To start, you only need a single [Atlantis SAM Config Repository](https://github.com/63Klabs/atlantis-cfn-configuration-repo-for-serverless-deployments), as everything flows from there.
+To start, use the [Atlantis SAM Config Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts) within your organization's central cloud configuration repository.
 
 **If you are a developer** and your organization is already using Atlantis, the place to start is to clone your organization's private Atlantis SAM Configuration repository and follow the:
 - **Instructions for Developers:** Setting Up Your Organization's Atlantis SAM Config Repo on Your Local Machine. 
@@ -76,6 +72,13 @@ GitOps and Best Practices from the start!
 ### 3rd Party Application Starters
 
 - [Serverless Video Conversion using AWS Elemental MediaConvert](https://github.com/chadkluck/serverless-video-converter) (chadkluck/serverless-video-converter)
+- [Serverless Image Resizing using Sharp on Lambda](https://github.com/63Klabs/atlantis-sam-config-scripts) (chadkluck/serverless-image-resizer)
+
+Creating repositories from an existing code base is easy:
+
+```bash
+./cli/create_repo.py my-new-repo --source https://github.com/63Klabs/atlantis-sam-config-scripts
+```
 
 ### Host Your Own Application Starters
 
@@ -101,7 +104,7 @@ By default, the templates are sourced from the 63klabs S3 bucket. All templates 
 
 ## Roles and Security Built-In
 
-Separation of Stacks by Concern and Principle of Least Privilege
+Principle of Least Privilege and Separation of Stacks by Concern
 
 For developers or engineers to deploy infrastructure stacks from the SAM Config repository, they must have the appropriate permissions.
 
