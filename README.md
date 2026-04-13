@@ -14,7 +14,7 @@ The Atlantis Platform consists of:
 - [SAM Configuration Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts)
 - [Infrastructure Templates](https://github.com/63Klabs/atlantis-sam-templates)
 - [Atlantis MCP Server](https://github.com/63Klabs/atlantis-mcp)
-- Application Starter Code
+- [Application Starter Code](./README.md#application-starters)
 
 ## Use Public Repository or Self-Host
 
@@ -69,10 +69,12 @@ GitOps and Best Practices from the start!
 - [02 API Gateway with Lambda utilizing 63klabs/cache-data Written in Node.js](https://github.com/63Klabs/atlantis-starter-02-apigw-lambda-cache-data-nodejs)
 - [03 Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/atlantis-starter-03-serverless-cloudfront-cache-invalidation)
 
-### 3rd Party Application Starters
+### Built on Atlantis: Ready to Deploy and Run
 
+- [Atlantis MCP Server](https://github.com/63klabs/atlantis-mcp) (63klabs/atlantis-mcp)
 - [Serverless Video Conversion using AWS Elemental MediaConvert](https://github.com/chadkluck/serverless-video-converter) (chadkluck/serverless-video-converter)
-- [Serverless Image Resizing using Sharp on Lambda](https://github.com/63Klabs/atlantis-sam-config-scripts) (chadkluck/serverless-image-resizer)
+- [Serverless Image Resizing using Sharp on Lambda](https://github.com/chadkluck/serverless-image-resizer) (chadkluck/serverless-image-resizer)
+- [Serverless Remote Falcon API Proxy](https://github.com/chadkluck/serverless-remote-falcon-api-proxy) (chadkluck/serverless-remote-falcon-api-proxy)
 
 Creating repositories from an existing code base is easy:
 
