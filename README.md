@@ -76,11 +76,23 @@ GitOps and Best Practices from the start!
 - [Serverless Image Resizing using Sharp on Lambda](https://github.com/chadkluck/serverless-image-resizer) (chadkluck/serverless-image-resizer)
 - [Serverless Remote Falcon API Proxy](https://github.com/chadkluck/serverless-remote-falcon-api-proxy) (chadkluck/serverless-remote-falcon-api-proxy)
 
-Creating repositories from an existing code base is easy:
+### Create Repos that are Ready to Deploy
+
+All starters and **Ready-to-Deploy-and-Run** applications are configured to deploy immediately, even if it is a simple default "Hello, World"-type configuration.
+
+Creating and seeding a repository with code from another GitHub repository is easy:
 
 ```bash
 ./cli/create_repo.py my-new-repo --source https://github.com/63Klabs/atlantis-sam-config-scripts
 ```
+
+**`create_repo.py` supports:**
+- Creation of both CodeCommit and GitHub repositories
+- Importing of Starter code, GitHub repositories, GitHub repository release, local or remote zip files
+
+> CAUTION: Only install code from trusted sources!
+
+After you have your repo, use `config.py` to create and deploy a pipeline off the `test` branch and you've got your first deployment! Add additional branches, pipelines, and resources as needed!
 
 ### Host Your Own Application Starters
 
