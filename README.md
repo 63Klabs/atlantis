@@ -67,11 +67,12 @@ GitOps and Best Practices from the start!
 - [00 Basic API Gateway with Lambda Function Written in Node.js](https://github.com/63Klabs/atlantis-starter-00-basic-apigw-lambda-nodejs)
 - [01 Basic API Gateway with Lambda Function Written in Python](https://github.com/63Klabs/atlantis-starter-01-basic-apigw-lambda-py)
 - [02 API Gateway with Lambda utilizing 63klabs/cache-data Written in Node.js](https://github.com/63Klabs/atlantis-starter-02-apigw-lambda-cache-data-nodejs)
-- [03 Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/atlantis-starter-03-serverless-cloudfront-cache-invalidation)
+- [03 Scheduled CodeBuild Container](https://github.com/63Klabs/atlantis-starter-03-serverless-codebuild-container)
 
 ### Built on Atlantis: Ready to Deploy and Run
 
 - [Atlantis MCP Server](https://github.com/63klabs/atlantis-mcp) (63klabs/atlantis-mcp)
+- [Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/serverless-cloudfront-cache-invalidation) (63klabs/serverless-cloudfront-cache-invalidation)
 - [Serverless Video Conversion using AWS Elemental MediaConvert](https://github.com/chadkluck/serverless-video-converter) (chadkluck/serverless-video-converter)
 - [Serverless Image Resizing using Sharp on Lambda](https://github.com/chadkluck/serverless-image-resizer) (chadkluck/serverless-image-resizer)
 - [Serverless Remote Falcon API Proxy](https://github.com/chadkluck/serverless-remote-falcon-api-proxy) (chadkluck/serverless-remote-falcon-api-proxy)
@@ -80,17 +81,19 @@ GitOps and Best Practices from the start!
 
 All starters and **Ready-to-Deploy-and-Run** applications are configured to deploy immediately, even if it is a simple default "Hello, World"-type configuration.
 
+Application Starters are available directly from the `create_repo.py` script.
+
 Creating and seeding a repository with code from another GitHub repository is easy:
 
 ```bash
-./cli/create_repo.py my-new-repo --source https://github.com/63Klabs/atlantis-sam-config-scripts
+./cli/create_repo.py my-new-repo --source https://github.com/63Klabs/serverless-cloudfront-cache-invalidation
 ```
 
 **`create_repo.py` supports:**
 - Creation of both CodeCommit and GitHub repositories
 - Importing of Starter code, GitHub repositories, GitHub repository release, local or remote zip files
 
-> CAUTION: Only install code from trusted sources!
+> **CAUTION:** Only install code from trusted sources!
 
 After you have your repo, use `config.py` to create and deploy a pipeline off the `test` branch and you've got your first deployment! Add additional branches, pipelines, and resources as needed!
 
