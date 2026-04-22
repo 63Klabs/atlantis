@@ -20,6 +20,8 @@ The Atlantis Platform consists of:
 - [Atlantis MCP Server](https://github.com/63Klabs/atlantis-mcp)
 - [Application Starter Code](./README.md#application-starters)
 
+The [Atlantis Platform Administration for Organizations](https://github.com/63Klabs/atlantis-platform-admin) repository provides instructions to Platform Engineering and Developer Experience teams for provisioning Atlantis within your organization.
+
 ## Free, Open Source, Easy to Start
 
 Getting started is simple; it starts with a SAM Configuration repository. Connections to public CloudFormation libraries and application starter code are all available from the command line. 
