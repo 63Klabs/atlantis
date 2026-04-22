@@ -1,8 +1,10 @@
-# Atlantis
+# Atlantis Templates and Scripts Platform
 
-## 63Klabs Atlantis Templates and Scripts Platform for Serverless Deployments on AWS
+## 63Klabs Atlantis Templates and Scripts Platform for Serverless Application Development and Deployment on AWS
 
-Ready-to-deploy-and-run:
+Atlantis is a free and open source platform that provides templates, scripts, starter code, and design patterns to build, maintain, and deploy serverless applications providing best practices in security, observability, and performance. The platform promotes [Infrastructure as Code](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html), [Principle of Least Privilage](https://docs.aws.amazon.com/prescriptive-guidance/latest/least-privilege-cloudformation/best-practices.html), and the [Well Architected Framework](https://aws.amazon.com/architecture/well-architected/) as models for development and deployment.
+
+## Ready-to-deploy-and-run
 
 - **Infrastructure as Code (IaC)** - Library of CloudFormation Templates and Application Starter Code maintained by platform engineers with best practices in security, observability, and well-architected design patterns built in.
 - **Continuous Integration/Continuous Deployment/Delivery (CI/CD)** - AWS CodePipeline or GitHub Actions automation scripts and tests to ensure GitOps and reliable deployments.
@@ -10,33 +12,37 @@ Ready-to-deploy-and-run:
 - **Tutorials** - Documentation and step-by-step tutorials assist in learning not only how to use Atlantis, but also how to develop and deploy production-level serverless applications using CI/CD, IaC, and the Well-Architected Framework. Even if your organization doesn't use Atlantis as its production platform, it is an easy way to teach, learn, and experiment.
 - **MCP Server** - AI-assisted development tools to discover, validate, and utilize CloudFormation templates, starter code, and documentation.
 
+## Provisions
+
 The Atlantis Platform consists of:
 - [SAM Configuration Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts)
 - [Infrastructure Templates](https://github.com/63Klabs/atlantis-sam-templates)
 - [Atlantis MCP Server](https://github.com/63Klabs/atlantis-mcp)
 - [Application Starter Code](./README.md#application-starters)
 
-## Use Public Repository or Self-Host
+## Free, Open Source, Easy to Start
 
-Getting started is simple; it starts with a SAM Configuration repository. Connections to public CloudFormation libraries and application starter code are all available from the command line.
+Getting started is simple; it starts with a SAM Configuration repository. Connections to public CloudFormation libraries and application starter code are all available from the command line. 
+
+Templates and scripts are pulled from the public 63Klabs repositories, there is no platform to manage.
 
 This makes learning and experimentation quick and easy for small shops, individuals, and those just starting out.
 
-Over time, you can add your own templates using your own private repositories alongside the public repositories. Or move it all in-house and self-host the entire platform.
+Over time, you can develop your own private and custom templates to use alongside the public repositories. 
+
+Or, you can move it all in-house and self-host the entire platform (including the MCP server).
 
 ## Get Started
 
-To start, use the [Atlantis SAM Config Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts) within your organization's central cloud configuration repository.
+To start, provide a private [Atlantis SAM Config Scripts](https://github.com/63Klabs/atlantis-sam-config-scripts) repository within your organization for developers to access, configure application repos, and deploy application pipelines.
 
-**If you are a developer** and your organization is already using Atlantis, the place to start is to clone your organization's private Atlantis SAM Configuration repository and follow the:
-- **Instructions for Developers:** Setting Up Your Organization's Atlantis SAM Config Repo on Your Local Machine. 
+**If you are a DEVELOPER** and your organization is already using Atlantis, the place to start is cloning your organization's internal Atlantis SAM Configuration repository. Follow the `docs/getting-started-for-developers.md` file found in the repository.
 
-**If you are an individual, cloud engineer, or instructor** setting up or evaluating Atlantis for personal, organizational, team, or classroom use, then follow the:
-- **Instructions for Account Owners**: Setting Up Your Organization's Atlantis SAM Config Repository.
+**If you are an ADMINISTRATOR (personal, cloud engineer, or instructor)** setting up or evaluating Atlantis for personal, organizational, team, or classroom use, then review [Atlantis Platform Administration for Organizations](https://github.com/63Klabs/atlantis-platform-admin) repository for instructions and scripts to provision access to your developers.
 
 ## Tutorials
 
-[Tutorials are available](https://github.com/63Klabs/atlantis-tutorials) to help you use the Application Starter Code.
+[Tutorials are available](https://github.com/63Klabs/atlantis-tutorials) to help you use the Application Starter Code and get the most out of the Atlantis Platform.
 
 ## Application Starters
 
@@ -62,6 +68,8 @@ Finally, clone your application repository and get started coding! Commit and pu
 
 GitOps and Best Practices from the start!
 
+You can also add the [Atlantis MCP Server](https://mcp.atlantis.63klabs.net) to your AI Assistant, tell it what you want to develop using the Atlantis Platform and it will provide recomendations for what starter code to use and how it can be modified to suit your needs!
+
 ### Available Application Starters
 
 - [00 Basic API Gateway with Lambda Function Written in Node.js](https://github.com/63Klabs/atlantis-starter-00-basic-apigw-lambda-nodejs)
@@ -69,7 +77,7 @@ GitOps and Best Practices from the start!
 - [02 API Gateway with Lambda utilizing 63klabs/cache-data Written in Node.js](https://github.com/63Klabs/atlantis-starter-02-apigw-lambda-cache-data-nodejs)
 - [03 Scheduled CodeBuild Container](https://github.com/63Klabs/atlantis-starter-03-serverless-codebuild-container)
 
-### Built on Atlantis: Ready to Deploy and Run
+### Built on Atlantis: *Ready-to-Deploy-and-Run*
 
 - [Atlantis MCP Server](https://github.com/63klabs/atlantis-mcp) (63klabs/atlantis-mcp)
 - [Serverless Multi-Bucket CloudFront Invalidation Service](https://github.com/63Klabs/serverless-cloudfront-cache-invalidation) (63klabs/serverless-cloudfront-cache-invalidation)
@@ -77,9 +85,9 @@ GitOps and Best Practices from the start!
 - [Serverless Image Resizing using Sharp on Lambda](https://github.com/chadkluck/serverless-image-resizer) (chadkluck/serverless-image-resizer)
 - [Serverless Remote Falcon API Proxy](https://github.com/chadkluck/serverless-remote-falcon-api-proxy) (chadkluck/serverless-remote-falcon-api-proxy)
 
-### Create Repos that are Ready to Deploy
+### Create Repos that are *Ready-to-Deploy-and-Run*
 
-All starters and **Ready-to-Deploy-and-Run** applications are configured to deploy immediately, even if it is a simple default "Hello, World"-type configuration.
+All starters and **Ready-to-Deploy-and-Run** applications are configured to deploy and run immediately.
 
 Application Starters are available directly from the `create_repo.py` script.
 
