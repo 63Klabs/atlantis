@@ -2,7 +2,7 @@
 
 ## 63Klabs Atlantis Templates and Scripts Platform for Serverless Application Development and Deployment on AWS
 
-Atlantis is a free and open source platform that provides templates, scripts, starter code, and design patterns to build, maintain, and deploy serverless applications providing best practices in security, observability, and performance. The platform promotes [Infrastructure as Code](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html), [Principle of Least Privilage](https://docs.aws.amazon.com/prescriptive-guidance/latest/least-privilege-cloudformation/best-practices.html), and the [Well Architected Framework](https://aws.amazon.com/architecture/well-architected/) as models for development and deployment.
+Atlantis is a free and open source platform that provides opinionated templates, scripts, starter code, and design patterns to build, maintain, and deploy serverless applications providing best practices in security, observability, and performance. The platform promotes [Infrastructure as Code](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html), [Principle of Least Privilege](https://docs.aws.amazon.com/prescriptive-guidance/latest/least-privilege-cloudformation/best-practices.html), and the [Well Architected Framework](https://aws.amazon.com/architecture/well-architected/) as models for development and deployment.
 
 ## Ready-to-deploy-and-run
 
